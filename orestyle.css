@@ -1,0 +1,101 @@
+html {
+background-image:url('images/bg.gif');
+color: #FFF;
+font-family: "Gorgia", "Lucida Grande", Sans-Serif;
+}
+.footer{
+    display:block;
+    position:fixed;
+    bottom:0px;
+    width:350px;
+  }
+
+#formbox {border-style:solid; border-width:2px; width:750px; margin-bottom:10px; padding:10px; margin-right:auto; margin-left:auto; position:relative;}
+#formbox span.button {position:absolute; top:195px; right:50px;}
+#formbox span.captcha {position:absolute; top:15px; right:15px;}
+#formbox span.chkbox {position:absolute; top:145px; right:295px;}
+#formbox table.table{text-align:right; padding-right:24px; border-right:1px; border-right-style:solid; font-variant:small-caps;}
+#formbox span.star {color:red;}
+#formbox span.font {font-variant:small-caps;}
+#formbox a:link {color:#FF9900;}
+#formbox a:visited {color:#FF9900;}
+span.error {font-size:120%; color:#FFD633; font-weight:bold;}
+span.exclaim {font-size:120%; color:red; font-weight:bold;}
+
+#errorbox {
+	position: relative;
+	border-style: solid;
+	border-width: 2px;
+	border-color: yellow;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+#prembox {border-style:solid;border-radius:.4em; border-width:2px; width:900px; margin-bottom:10px; padding:10px; margin-right:auto; margin-left:auto; position:relative; background-color:#2A2A2A;}
+#prembox a:link {color:#FF9900;}
+#prembox a:visited {color:#FF9900;}
+#prembox a {color:#2B60DE;}
+
+#appbox {border-style:solid; border-width:2px; width:750px; padding:10px; margin-top:10px; margin-right:auto; margin-left:auto; position:relative;}
+#appbox span.vari{font-variant:small-caps; font-weight:bold}
+#appbox span.info{color:#989898}
+#appbox span.statusa {color:#00CC00; font-weight:bold; font-style:italic; font-size:200%; float:right}
+#appbox span.statusp {color:#FFFF33; font-weight:bold; font-style:italic; font-size:200%; float:right}
+#appbox span.title {font-size:150%; font-variant:small-caps; font-weight:bold}
+#appbox img {right:15px; top:50px; position:absolute;}
+
+#minimalist {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 12px;
+border-collapse: collapse;
+margin: 30px 30px 30px 15px;
+}
+#minimalist th {
+font-weight: normal;
+font-size: 14px;
+color: #FFF;
+padding: 8px 2px;
+}
+#minimalist td {
+border-right: 30px solid transparent;
+border-left: 30px solid transparent; 
+color: #FFF;
+text-align:center;
+}
+
+#pagination {
+font-family:Arial, Helvetica, sans-serif;
+	padding: 3px;
+	margin: 3px;
+}
+
+#pagination a {
+	padding:2px 5px 2px 5px;
+	margin:2px;
+	border:1px solid #999;
+	text-decoration:none;
+	color: #666;
+}
+#pagination a:hover, div.pagination a:active {
+	border: 1px solid #999;
+	color: #000;
+}
+#pagination span.current {
+    margin: 2px;
+	padding: 2px 5px 2px 5px;
+		border: 1px solid #999;
+		
+		font-weight: bold;
+		background-color: #999;
+		color: #FFF;
+	}
+	#pagination span.disabled {
+		padding:2px 5px 2px 5px;
+		margin:2px;
+		border:1px solid #eee;
+		color:#DDD;
+	}
